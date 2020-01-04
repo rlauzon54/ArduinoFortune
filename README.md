@@ -22,9 +22,8 @@ All that makes the Arduino code much simpler.  It simply randomly chooses a fort
 
 ## Software
 
-sdCard/ - the files that need to go on the micro SD card in the LCD shield.
-sdCard/splitFortunes.py - Reads the Linux Fortune files and splits each fortune into an individual file, creating the subdirectories.
-sdCard/fortune.py - The Fortune module that I use to read Linux Fortune files.
-sdCard/<everything else> - The Linux fortune files.  These came from the repo for the Linux Fortune program.  I did do some work to eliminate some fortunes (mostly in the ascii-art) that simply won't format well.
-	
-Fortune/Fortune.ino - The Arduino script to display the fortunes.
++ sdCard/ - the files that need to go on the micro SD card in the LCD shield.
++ sdCard/splitFortunes.py - Reads the Linux Fortune files and splits each fortune into an individual file, creating the subdirectories.
++ sdCard/fortune.py - The Fortune module that I use to read Linux Fortune files.
++ sdCard/<everything else> - The Linux fortune files.  These came from the repo for the Linux Fortune program.  I did do some work to eliminate some fortunes (mostly in the ascii-art) that simply won't format well.
++ Fortune/Fortune.ino - The Arduino script to display the fortunes.
